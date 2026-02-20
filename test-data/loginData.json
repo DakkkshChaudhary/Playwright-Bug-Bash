@@ -1,0 +1,41 @@
+{
+  "validUsers": [
+    {
+      "role": "Admin",
+      "email": "admin@shophub.com",
+      "password": "admin123"
+    },
+    {
+      "role": "User",
+      "email": "user@example.com",
+      "password": "user123"
+    },
+    {
+      "role": "Guest",
+      "email": "guest@demo.com",
+      "password": "guest123"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "description": "wrong password",
+      "email": "admin@shophub.com",
+      "password": "wrong123"
+    },
+    {
+      "description": "unknown email",
+      "email": "wrong@email.com",
+      "password": "admin123"
+    },
+    {
+      "description": "empty credentials",
+      "email": "",
+      "password": ""
+    },
+    {
+      "description": "invalid email format",
+      "email": "user@example123.com",
+      "password": "user123"
+    }
+  ]
+}
